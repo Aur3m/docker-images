@@ -17,15 +17,15 @@ ARG BUILD_DATE
 ARG VERSION
 ARG REVISION
 
-LABEL maintainer="Sandro Jäckel <sandro.jaeckel@gmail.com>" \
+LABEL maintainer="Aur3m" \
   org.opencontainers.image.created=$BUILD_DATE \
-  org.opencontainers.image.authors="Sandro Jäckel <sandro.jaeckel@gmail.com>" \
-  org.opencontainers.image.url="https://github.com/SuperSandro2000/docker-images/tree/master/MusicBot" \
+  org.opencontainers.image.authors="Aur3m>" \
+  org.opencontainers.image.url="https://github.com/Aur3m/docker-images/tree/master/MusicBot" \
   org.opencontainers.image.documentation="https://github.com/jagrosh/MusicBot/wiki/" \
-  org.opencontainers.image.source="https://github.com/SuperSandro2000/docker-images" \
+  org.opencontainers.image.source="https://github.com/Aur3m/docker-images" \
   org.opencontainers.image.version=$VERSION \
   org.opencontainers.image.revision=$REVISION \
-  org.opencontainers.image.vendor="SuperSandro2000" \
+  org.opencontainers.image.vendor="Aur3m" \
   org.opencontainers.image.licenses="Apache-2.0" \
   org.opencontainers.image.title="MusicBot" \
   org.opencontainers.image.description="🎶 A Discord music bot that's easy to set up and run yourself!"
